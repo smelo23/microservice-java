@@ -23,11 +23,11 @@ spec:
           - configMapRef:
               name: microservice-java-config
         startupProbe:
-          initialDelaySeconds: 10
+          initialDelaySeconds: 20
           httpGet:
             path: /actuator/health
             port: 8080
         resources:
           requests:
-            cpu: 100m
+            cpu: 200m
             memory: 500Mi
