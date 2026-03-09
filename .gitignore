@@ -1,10 +1,8 @@
 build/
-!gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
 .gradle/
-!gradle/wrapper/
 
 *.class
 *.log
@@ -15,6 +13,9 @@ build/
 *.zip
 *.tar.gz
 *.rar
+
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/
 
 .idea/
 *.iws
