@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: microservice-java-config
+data:
+  SERVER_PORT: "8080"
+  SPRING_PROFILES_ACTIVE: "prod"
