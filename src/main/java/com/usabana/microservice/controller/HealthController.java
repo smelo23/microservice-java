@@ -27,7 +27,7 @@ public class HealthController {
     public Map<String, String> hello() {
         Map<String, String> response = new HashMap<>();
         response.put("message", "Hola desde el microservicio!");
-        response.put("author", "Sebastian Melo");
+        response.put("author", "smelo23");
         return response;
     }
 
